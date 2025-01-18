@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    background-image: linear-gradient(aquamarine, deepskyblue);
+    background-repeat: no-repeat;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(white, whitesmoke);
+    margin: 50px 150px 50px 150px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+header h2{
+    color: slategray;
+}
+
+footer{
+    text-align: center;
+    color: gray;
+    background-image: linear-gradient(white, whitesmoke);
+    margin: 25px 25px 25px 25px;
+    padding: 15px;
+    border-radius: 20px;
+}
