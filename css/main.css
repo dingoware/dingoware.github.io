@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
 }
 
+/* header elements */
 header{
     text-align: center;
     background-image: linear-gradient(white, whitesmoke);
@@ -17,6 +18,36 @@ header h2{
     color: slategray;
 }
 
+header img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 20px;
+    float: left;
+    -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0,0,0,0.0)90%, rgba(0,0,0,0.4));
+}
+
+/* main/body elements */
+main {
+    display: grid;
+    background-image: linear-gradient(white, whitesmoke);
+    margin: 50px 150px 50px 150px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main p {
+    /* add later */
+}
+
+main a {
+    /* add later */
+}
+
+/* footer elements */
 footer{
     text-align: center;
     color: gray;
