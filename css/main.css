@@ -35,6 +35,44 @@ main {
     border-radius: 20px;
 }
 
+.container {
+    position: relative;
+    max-width: 150px;
+    max-height: 150px;
+    width: 50%;
+}
+
+.container:hover img {
+    opacity: 0.5;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.middle {
+    position: absolute;
+    transition: .5s;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-image: linear-gradient(white, whitesmoke);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+main img {
+    display: block;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+    backface-visibility: hidden;
+    -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0,0,0,0.0)90%, rgba(0,0,0,0.4));
+}
+
 main h1 {
     text-align: center;
 }
