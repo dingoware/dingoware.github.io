@@ -40,9 +40,17 @@ main {
 
 .container {
     position: relative;
+    float: left;
     max-width: 150px;
     max-height: 150px;
     width: 50%;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .container:hover img {
@@ -84,8 +92,17 @@ main p {
     /* add later */
 }
 
+main span {
+    text-align: center;
+}
+
 main a {
-    /* add later */
+    color: steelblue;
+    padding: 10px;
+}
+
+main a:hover {
+    color: aquamarine;
 }
 
 /* footer elements */
